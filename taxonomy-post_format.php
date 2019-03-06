@@ -26,7 +26,7 @@
 	if (!empty($term_description)) {
 		echo '<div class="tax-description">';
 		echo $term_description;
-		echo '</div>'; ?>
+		echo '</div>'; } ?>
 	</header><!--page-header-->
 
 <?php while(have_posts()):the_post(); 

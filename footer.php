@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-		
+	
 	</div><!--#main .site-main-->
 <footer class="site-footer">
 	<?php wp_nav_menu( array( 
@@ -9,7 +8,7 @@
 	) ); ?>
 
 	<div class="site-info">
-		<a href="https://wordpress.org"><?php _e( 'Powered by WordPress', 'gthemes'); ?></a>
+		<a href="https://wordpress.org"><?php _e( 'Powered by WordPress', 'gtheme'); ?></a>
 	</div> <!--.site-info-->
 </footer>
 	</div> <!--#page .site-title-->
@@ -17,6 +16,5 @@
 	<?php wp_footer(); ?>
 </body>
 </html>
-=======
+
 <?php get_footer(); ?> 
->>>>>>> 3de290d87353f0a9a26b0afac1055e0f2a5107fd

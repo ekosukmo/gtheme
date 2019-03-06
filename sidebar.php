@@ -10,7 +10,7 @@
 		<div class="widget nav-sidebar">
 					<h2>Sidebar Menu</h2>
 					<?php wp_nav_menu( array(
-						'theme_location'=>'secondary'
+						'theme_location'=>'secondary',
 						'container'=> false
 					) ); ?>
 		</div><!--nav-sidebar-->

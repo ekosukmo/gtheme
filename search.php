@@ -3,7 +3,7 @@
 <div class="page-content">
 	<?php if (have_posts()): ?>
 		<header class="page-header">
-			<h1><?php _e('Search Result for :','gthemes');  
+			<h1><?php _e('Search Result for :','gtheme');  
 			echo get_search_query(); ?> </h1>
 		</header> <!--page-header-->
 

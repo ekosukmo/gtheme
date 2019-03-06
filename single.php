@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<<<<<<< HEAD
+
 <div class="page-content">
 	<?php 
 	if(have_posts()): while(have_posts()):the_post();
@@ -18,7 +18,7 @@
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
-=======
+
 
 <div class="page-content">
 	
@@ -34,4 +34,3 @@
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
 <?php get_header() ?> 
->>>>>>> 3de290d87353f0a9a26b0afac1055e0f2a5107fd

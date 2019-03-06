@@ -5,7 +5,7 @@
 <?php if (have_posts()): ?>
 	<header class="page-header">
 		<h1>
-			<?php _e( 'Tag Archives :','gthemes' );
+			<?php _e( 'Tag Archives :','gtheme' );
 			single_tag_title(); ?>
 		</h1>
 
