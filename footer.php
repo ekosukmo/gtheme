@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 		
 	</div><!--#main .site-main-->
 <footer class="site-footer">
@@ -16,3 +17,6 @@
 	<?php wp_footer(); ?>
 </body>
 </html>
+=======
+<?php get_footer(); ?> 
+>>>>>>> 3de290d87353f0a9a26b0afac1055e0f2a5107fd
