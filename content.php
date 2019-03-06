@@ -3,7 +3,7 @@
 
 	<?php if (is_single()) :?>
 		<header class="entry-header">
-			<h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+			<h1 class="entry-title"><?php the_title(); ?></h1>
 			<ul class="entry-meta">
 				<li><?php _e('Author :','gtheme'); ?><?php the_author_posts_link(); ?></li>
 				<li><?php _e('Category :','gtheme'); ?><?php the_category(', '); ?></li>
