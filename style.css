@@ -12,7 +12,7 @@ Text Domain: gtheme
 */
 /*
 	Table of Contents
-	
+
 		@general
 		@patterns
 		@header
@@ -31,16 +31,16 @@ Text Domain: gtheme
 html { background-color: #333; }
 body { 
 	width: 90%;
-	margin: 10px auto; 
-	padding: 10px; 
-	background-color: #fff; 
-	color: #333; 
+	margin: 10px auto;
+	padding: 10px;
+	background-color: #fff;
+	color: #333;
 	}
 
 .site-main {}
 .site-page {
-	width: 96%; 
-	margin: 0 auto; 
+	width: 96%;
+	margin: 0 auto;
 	}
 
 
@@ -79,10 +79,10 @@ a { color: #339999; text-decoration: none; }
 .entry-header {}
 .entry-header {}
 .entry-title {}
-.entry-format a { 
-	padding: 5px 10px; 
-	background-color: #339999; 
-	color: #fff; 
+.entry-format a {
+	padding: 5px 10px;
+	background-color: #339999;
+	color: #fff;
 	}
 
 .entry-meta { padding: 0; }
@@ -140,12 +140,12 @@ a { color: #339999; text-decoration: none; }
 
 .comment { list-style: none; margin: 20px 0; }
 .avatar { float: left; margin: 0 20px 20px 0; }
-.comment-awaiting-moderation  { 
-	display: inline-block; 
+.comment-awaiting-moderation  {
+	display: inline-block;
 	margin: 5px 0;
-	padding: 5px 10px; 
-	background-color: #ff9966; 
-	color: #fff; 
+	padding: 5px 10px;
+	background-color: #ff9966;
+	color: #fff;
 	}
 .reply { margin: 20px 0; }
 .comment-form p { margin: 10px 0; }
@@ -156,18 +156,18 @@ a { color: #339999; text-decoration: none; }
 /* @media */
 
 @media (max-width: 800px) {
-	.page-content, .widget-area, .sidebar { 
-		float: none; width: 100%; 
+	.page-content, .widget-area, .sidebar {
+		float: none; width: 100%;
 	}
 }
 
 
 /* @toplink */
 
-.top, .top:link { 
-	position: fixed; z-index: 999; bottom: 20px; right: 20px; width: 40px; height: 40px; 
+.top, .top:link {
+	position: fixed; z-index: 999; bottom: 20px; right: 20px; width: 40px; height: 40px;
 	font-size: 16px; font-weight: 700; line-height: 40px; text-align: center; text-transform: uppercase;
-	border: none; border-radius: 40px; color: #fff; background-color: #339999; opacity: 0.7; 
+	border: none; border-radius: 40px; color: #fff; background-color: #339999; opacity: 0.7;
 	}
 	.top:hover { border: none; opacity: 1.0; }
 

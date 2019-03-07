@@ -1,6 +1,5 @@
 <article id="post-<?php the_ID(); ?>"<?php post_class(); ?>>
 	<?php if (!post_password_required()&& !is_attachment() && has_post_thumbnail()) the_post_thumbnail(); //show post thumbnail ?>  
-
 	<?php if (is_single()) :?>
 		<header class="entry-header">
 			<h1 class="entry-title"><?php the_title(); ?></h1>
@@ -37,6 +36,7 @@
 			<div class="entry-summary">
 				<?php the_excerpt(); ?>
 			</div>
-
 		<?php endif; ?>
+
+
 </article>

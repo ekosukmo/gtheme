@@ -78,3 +78,4 @@ wp_enqueue_style( 'gtheme',get_stylesheet_uri(), array(),null );
 add_action( 'wp_enqueue_scripts', 'gtheme_script_style' );
 
  ?>
+

@@ -12,9 +12,9 @@
 			<?php 
 			$term_description = term_description();
 			if (!empty($term_description)) {
-				echo '<div class="tax-description">',
-				echo "$term_description",
-				echo "</div>"
+				echo '<div class="tax-description">';
+				echo "$term_description";
+				echo "</div>";
 			} ?>
 		</header>
 
